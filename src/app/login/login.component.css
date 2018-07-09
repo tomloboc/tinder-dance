@@ -1,0 +1,35 @@
+.main {
+  background-color: #f1f1f1;
+  height: 100vh;
+
+}
+.form-signin {
+  margin: 0 auto;
+  text-align: center;
+  height: auto;
+  padding-top: 6vw;
+  width: 250px;
+}
+input[type=checkbox] {
+   margin-top: 15px;
+ }
+.header {
+  padding-bottom: 10px;
+}
+.header a {
+  color: #fd5068;
+  font-family: 'Pacifico', cursive;
+  font-size: 48px;
+  text-decoration: none;
+}
+.btn {
+  background-color: #fd5068;
+  border: none;
+  width:250px;
+}
+input[type="email"], input[type="password"], textarea, select {
+  outline-color: none;
+}
+.btn-block:active {
+  background-color: #ff4d4d;
+}

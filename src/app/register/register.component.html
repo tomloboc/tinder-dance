@@ -1,0 +1,52 @@
+<div class="container">
+  <div class="row">
+    <form (ngSubmit)="onSumbit(signupForm)" #signupForm = 'ngForm'>
+      <div class="col-md-6">
+        <h1><a class="header" href="#">sWing</a> Rejestracja</h1>
+        <hr>
+
+        <label ><b>Imię</b></label>
+        <input type="text" placeholder="Podaj imię" name="Imię" >
+
+        <label ><b>Email</b></label>
+        <input ngModel name="email" type="text" placeholder="Podaj adres email" required>
+
+        <label ><b>Hasło</b></label>
+        <input ngModel name="password" placeholder="Podaj hasło"  required>
+
+        <label ><b>Powtórz hasło</b></label>
+        <input type="password" placeholder="Powtórz hasło"  >
+
+        <hr>
+        <p>Masz już konto? <a [routerLink]="['/login']">Zaloguj się</a></p>
+      </div>
+      <div class="col-md-6 sex">
+        <hr>
+          <form>
+            <label class="checkbox-inline">
+              <input type="checkbox" value="" name="gender">Kobiety
+            </label>
+            <label class="checkbox-inline">
+              <input type="checkbox" value="" name="gender">Mężczyźni
+            </label>
+          </form>
+        <div class="date">
+          <div class="date">
+          <p>Data urodzenia</p>
+          <input type="date"><br>
+          </div>
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlFile1">Wybierz zdjęcie</label>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+          </form>
+          <div class="signin">
+            <p class="signin-rules">Rejestrując się wyrażasz zgodę na nasze <u>Warunki korzystania z usługi</u><br></p>
+            <button [disabled]="!signupForm.valid" type="submit" class="registerbtn">Zarejestruj</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

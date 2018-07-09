@@ -1,0 +1,38 @@
+
+.navbar {
+  background-color: #fd5068;
+  margin-right: 0;
+}
+.navbar-brand {
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+  font-family: 'Pacifico', cursive;
+  margin-left: 4vw;
+}
+.navbar-toggler {
+  color: #1a1a1a;
+}
+.navbar-nav {
+  margin: 0 auto;
+  font-size: 1.75em;
+  font-family: 'Pacifico', cursive;
+}
+.navbar-nav a {
+  color: white;
+  padding-right: 55px;
+}
+.navbar-nav a:hover {
+  color:black;
+  transition-duration: 300ms;
+}
+.btn {
+  background-color: white;
+  color:#ff4d4d;
+  font-size: 1.25em;
+  width: 140px;
+  border-color: #ff4d4d;
+}
+.btn:hover {
+  background-color: darkgrey;
+}

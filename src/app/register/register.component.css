@@ -1,0 +1,71 @@
+.container {
+  padding-top: 3vw;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.sex {
+  font-weight: bold;
+  padding-top: 59px;
+}
+.sex form {
+  margin-top: 3.5vw;
+}
+.sex form label{
+  margin-right: 2vw;
+}
+.date {
+  margin-top: 1vw;
+  padding-bottom: 2vw;
+}
+.date input[type=date] {
+  margin-bottom: 3vw;
+  margin-top: 1vw;
+}
+.signin {
+  position: relative;
+  top:95%;
+}
+.signin-rules {
+  font-size: 12px;
+  font-weight: normal;
+}
+a.header {
+  color: #fd5068;
+  font-family: 'Pacifico', cursive;
+  font-size: 48px;
+  text-decoration: none;
+}
+button {
+  background-color: #fd5068;
+  color: #f9f8f8;
+  line-height: 35px;
+  border:none;
+  width:140px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #fd5068;
+}
+button.registerbtn {
+  width: 140px;
+}
+but.registerbtn:active {
+  background-color: darkblue;
+}
+
+@media screen and (max-width:991px) {
+  .sex {
+    margin-top: 48px;
+  }
+}
+@media screen and (max-width:766px) {
+  .sex {
+    margin-top: 0px;
+  }
+}
